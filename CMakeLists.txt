@@ -15,6 +15,16 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 include(CMakeDependentOption)
 
+set(Python3_INCLUDE_DIR "/usr/include/python3.12")
+#set(CURL_INCLUDE_DIR "/usr/local/include/curl")
+#set(CURL_LIBRARY "/usr/local/lib/libcurl.so")
+set(CMAKE_CXX_STANDARD 20)          
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+
+
+
+
 # Some option
 option(AIMRT_BUILD_TESTS "AimRT build tests." OFF)
 option(AIMRT_BUILD_DOCUMENT "AimRT build document." OFF)
